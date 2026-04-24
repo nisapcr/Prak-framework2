@@ -6,10 +6,9 @@ export default function Sidebar() {
   // Fungsi ini menerima object { isActive } otomatis dari NavLink
   const menuClass = ({ isActive }) => `
     flex items-center gap-4 px-5 py-3.5 rounded-2xl cursor-pointer transition-all duration-300 font-bold
-    ${
-      isActive
-        ? "text-hijau bg-green-200 font-extrabold"
-        : "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
+    ${isActive
+      ? "text-hijau bg-green-200 font-extrabold"
+      : "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
     }
   `;
 
@@ -17,6 +16,9 @@ export default function Sidebar() {
     { name: "Dashboard", icon: <FaHome />, to: "/" },
     { name: "Orders", icon: <FaShoppingCart />, to: "/orders" },
     { name: "Customers", icon: <FaUsers />, to: "/customers" },
+    { name: "Error 400", icon: <FaHome />, to: "/400" },
+    { name: "Error 401", icon: <FaHome />, to: "/401" },
+    { name: "Error 403", icon: <FaHome />, to: "/403" },
   ];
 
   return (
@@ -39,7 +41,7 @@ export default function Sidebar() {
               <li key={item.name}>
                 <NavLink
                   to={item.to}
-                  className={menuClass} // Menggunakan fungsi menuClass sesuai arahan
+                  className={menuClass} 
                 >
                   <span className="text-xl">{item.icon}</span>
                   <span className="tracking-wide">{item.name}</span>
@@ -84,5 +86,7 @@ export default function Sidebar() {
         </div>
       </div>
     </div>
+
+
   );
 }
