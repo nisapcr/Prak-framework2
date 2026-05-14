@@ -47,7 +47,7 @@ export default function Sidebar() {
           </h1>
 
           <p className="text-slate-400 text-xs font-medium uppercase tracking-widest mt-1">
-            Modern Admin Dashboard
+            Modern Admin Dashboard Nica
           </p>
         </div>
 
