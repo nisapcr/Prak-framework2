@@ -12,6 +12,8 @@ const Customers = React.lazy(() => import("./pages/Customers"));
 const Orders = React.lazy(() => import("./pages/Orders"));
 const Products = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
+// 1. TAMBAHKAN IMPORT LAZY UNTUK COMPONENTS DI SINI:
+const Components = React.lazy(() => import("./pages/Components")); 
 
 const Login = React.lazy(() => import("./pages/auth/Login"));
 const Register = React.lazy(() => import("./pages/auth/Register"));
@@ -21,7 +23,6 @@ function App() {
   return (
     <Suspense fallback={<Loading />}>
       <Routes>
-
         {/* AUTH */}
         <Route element={<AuthLayout />}>
           <Route path="/login" element={<Login />} />
@@ -32,14 +33,17 @@ function App() {
         {/* MAIN */}
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Dashboard />} />
-          
+
           <Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
 
           {/* PRODUCTS */}
           <Route path="products" element={<Products />} />
           <Route path="products/:id" element={<ProductDetail />} />
-
+          
+          {/* 2. ROUTE COMPONENTS (Disarankan hilangkan tanda '/' di awal agar konsisten dengan yang lain) */}
+          <Route path="components" element={<Components />} />
+          
           {/* ERROR */}
           <Route
             path="400"
@@ -61,7 +65,6 @@ function App() {
             element={<ErrorPage code="404" description="Page Not Found" />}
           />
         </Route>
-
       </Routes>
     </Suspense>
   );
