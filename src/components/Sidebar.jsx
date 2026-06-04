@@ -27,7 +27,7 @@ export default function Sidebar() {
     { name: "Customers", icon: <FaUsers />, to: "/customers" },
 
     { name: "Products", icon: <FaBox />, to: "/products" },
-    
+    { name: "FiturXYZ", icon: <FaCogs />, to: "/fiturxyz" },
     // COMPONENTS
     { name: "Components", icon: <FaCogs />, to: "/components" },
     

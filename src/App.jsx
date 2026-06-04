@@ -5,6 +5,7 @@ import MainLayout from "./layouts/MainLayout";
 import AuthLayout from "./layouts/AuthLayout";
 import ErrorPage from "./components/ErrorPage";
 import Loading from "./components/Loading";
+import FiturXYZ from "./pages/FiturXYZ";
 
 /* Lazy */
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
@@ -43,7 +44,8 @@ function App() {
           
           {/* 2. ROUTE COMPONENTS (Disarankan hilangkan tanda '/' di awal agar konsisten dengan yang lain) */}
           <Route path="components" element={<Components />} />
-          
+          <Route path="FiturXYZ" element={<FiturXYZ />} />
+            
           {/* ERROR */}
           <Route
             path="400"
