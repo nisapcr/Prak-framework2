@@ -1,12 +1,12 @@
 [
-  { "customerId": "CUST001", "customerName": "Andi Wijaya", "email": "andi@mail.com", "phone": "0811111111", "loyalty": "Gold" },
-  { "customerId": "CUST002", "customerName": "Siti Aminah", "email": "siti@mail.com", "phone": "0822222222", "loyalty": "Silver" },
-  { "customerId": "CUST003", "customerName": "Budi Santoso", "email": "budi@mail.com", "phone": "0833333333", "loyalty": "Bronze" },
-  { "customerId": "CUST004", "customerName": "Dewi Lestari", "email": "dewi@mail.com", "phone": "0844444444", "loyalty": "Gold" },
-  { "customerId": "CUST005", "customerName": "Rudi Hartono", "email": "rudi@mail.com", "phone": "0855555555", "loyalty": "Silver" },
-  { "customerId": "CUST006", "customerName": "Maya Sari", "email": "maya@mail.com", "phone": "0866666666", "loyalty": "Bronze" },
-  { "customerId": "CUST007", "customerName": "Agus Salim", "email": "agus@mail.com", "phone": "0877777777", "loyalty": "Gold" },
-  { "customerId": "CUST008", "customerName": "Nina Putri", "email": "nina@mail.com", "phone": "0888888888", "loyalty": "Silver" },
-  { "customerId": "CUST009", "customerName": "Fajar", "email": "fajar@mail.com", "phone": "0899999999", "loyalty": "Bronze" },
-  { "customerId": "CUST010", "customerName": "Rahma", "email": "rahma@mail.com", "phone": "0810000000", "loyalty": "Gold" }
+  { "customerId": "CUST001", "customerName": "Andi Wijaya", "email": "andi@mail.com", "phone": "0811111111", "points": 650, "loyalty": "Platinum" },
+  { "customerId": "CUST002", "customerName": "Siti Aminah", "email": "siti@mail.com", "phone": "0822222222", "points": 420, "loyalty": "Gold" },
+  { "customerId": "CUST003", "customerName": "Budi Santoso", "email": "budi@mail.com", "phone": "0833333333", "points": 180, "loyalty": "Silver" },
+  { "customerId": "CUST004", "customerName": "Dewi Lestari", "email": "dewi@mail.com", "phone": "0844444444", "points": 350, "loyalty": "Gold" },
+  { "customerId": "CUST005", "customerName": "Rudi Hartono", "email": "rudi@mail.com", "phone": "0855555555", "points": 210, "loyalty": "Silver" },
+  { "customerId": "CUST006", "customerName": "Maya Sari", "email": "maya@mail.com", "phone": "0866666666", "points": 50, "loyalty": "Bronze" },
+  { "customerId": "CUST007", "customerName": "Agus Salim", "email": "agus@mail.com", "phone": "0877777777", "points": 610, "loyalty": "Platinum" },
+  { "customerId": "CUST008", "customerName": "Nina Putri", "email": "nina@mail.com", "phone": "0888888888", "points": 280, "loyalty": "Silver" },
+  { "customerId": "CUST009", "customerName": "Fajar", "email": "fajar@mail.com", "phone": "0899999999", "points": 90, "loyalty": "Bronze" },
+  { "customerId": "CUST010", "customerName": "Rahma", "email": "rahma@mail.com", "phone": "0810000000", "points": 450, "loyalty": "Gold" }
 ]
